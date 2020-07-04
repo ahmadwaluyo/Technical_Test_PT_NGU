@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import Dashboard from './pages/Dashboard';
+import AddEvents from './pages/AddEvents';
+import DetailCard from './pages/DetailCard';
+import { 
+  Route,
+  Switch,
+  BrowserRouter as Router,
+} from 'react-router-dom';
 import './App.css';
 
-function App() {
+export default function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Dashboard />
+        </Route>
+        <Route exact path="/add">
+          <AddEvents />
+        </Route>
+        <Route exact path="/:id">
+          <DetailCard />
+        </Route>
+      </Switch>
+    </Router>
+  )
 }
-
-export default App;

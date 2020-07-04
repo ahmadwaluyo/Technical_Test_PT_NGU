@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image_event": "https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&w=1000&q=80",
+      "event_title": "Meeting With CEO",
+      "location": "Pisangan Baru, Jakarta Timur",
+      "members": [
+        {
+          "name": "Angga"
+        }
+      ],
+      "date": "17 Agustus 1994",
+      "note": "Okelah Kalo Begitu"
+    },
+    {
+      "id": 2,
+      "image_event": "https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&w=1000&q=80",
+      "event_title": "Meeting With CEO",
+      "location": "Pisangan Baru, Jakarta Timur",
+      "members": [
+        {
+          "name": "Bakti"
+        }
+      ],
+      "date": "17 Agustus 1994",
+      "note": "Okelah Kalo Begitu"
+    }
+    ]
+}
