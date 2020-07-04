@@ -27,7 +27,7 @@ export default function AddEvent() {
         }
         dispatch(postEvent(data))
     }
-
+ 
     async function uploadImage(uri) {
         // Firebase sets some timeers for a long period, which will trigger some warnings. Let's turn that off for this example
         // console.disableYellowBox = true
