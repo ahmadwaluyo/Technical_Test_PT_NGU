@@ -25,6 +25,19 @@
       ],
       "date": "17 Agustus 1994",
       "note": "Okelah Kalo Begitu"
+    },
+    {
+      "image_event": " https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&w=1000&q=80",
+      "event_title": "Bersepeda",
+      "location": "Jakarta",
+      "members": [
+        {
+          "name": "Ahmad"
+        }
+      ],
+      "date": "2020-07-06",
+      "note": "Ok",
+      "id": 3
     }
-    ]
+  ]
 }

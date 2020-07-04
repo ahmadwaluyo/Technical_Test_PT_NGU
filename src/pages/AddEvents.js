@@ -18,7 +18,7 @@ export default function AddEvent() {
     
     const onHandleSubmit = () => {
         const data = {
-            title,
+            event_title: title,
             location,
             members : participant,
             date,

@@ -31,7 +31,7 @@ export const postEvent = (dataEvent) => {
         location: dataEvent.location,
         members: [
           {
-            name: dataEvent.name
+            name: dataEvent.members
           }
         ],
         date: dataEvent.date,
